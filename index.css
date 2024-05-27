@@ -1,0 +1,58 @@
+
+body{
+    background-color: aquamarine;
+}
+.container
+{
+width: 70%;
+margin: auto;
+text-align: center;
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    margin: 30px;
+     font-family: "Indie Flower",cursive;
+     font-style: italic;
+    text-shadow: 5px 0 #232931;
+      font-size: 4rem;
+      color: #4ecca3;
+}
+p{
+    font-size: 2rem;
+    color: #4ecca3;
+    font-family: "Indie Flower";
+    font-size: normal;
+}
+img{
+    width: 80%;
+}
+footer{
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: "Indie Flower",cursive;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+} 
+#play-btn{
+    display: block;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(45, 4, 4);
+    border-radius: 10px;
+    color: #EEEEEE;
+    font-family: 'Indie Flower';
+    margin: auto;
+    transition: 0.2s;
+
+
+}
+#play-btn:active{
+    background-color: #EEEEEE;
+    color: black;
+}
